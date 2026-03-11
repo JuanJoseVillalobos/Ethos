@@ -1,8 +1,8 @@
-module ethos.com.ethos {
+module ethos.com.app {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens ethos.com.ethos to javafx.fxml;
-    exports ethos.com.ethos;
+    opens ethos.com.app to javafx.fxml;
+    exports ethos.com.app;
 }
